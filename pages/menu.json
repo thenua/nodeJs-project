@@ -1,0 +1,188 @@
+{
+    "coffee": [
+    {
+        "image":"/images/coffee1.jpg",
+        "header": "Our Premium Black Coffee",
+        "subtext": "Standard black coffee seeds",
+        "price": "₹ 60"
+    },
+    {
+        "image":"/images/coffee2.jpg",
+        "header": "Special Rajasthani Coffee",
+        "subtext": "Flavour of traditional coffee of royal Rajasthan.",
+        "price": "₹ 90"
+    },
+    {
+        "image":"/images/coffee3.jpg",
+        "header": "Chilled Coffee Smoothy",
+        "subtext": "Choclaty flavour filled with cream.",
+        "price": "₹ 70"
+    },
+    {
+        "image":"/images/coffee4.jpg",
+        "header": "Heart Design Coffee",
+        "subtext": "Standard black coffee seeds",
+        "price": "₹ 90"
+    },
+    {
+        "image":"/images/coffee5.jpg",
+        "header": "Normal Coffee",
+        "subtext": "Standard black coffee seeds",
+        "price": "₹ 40"
+    },
+    {
+        "image":"/images/coffee6.jpg",
+        "header": "Smile Design Coffee",
+        "subtext": "Standard black coffee seeds",
+        "price": "₹ 80"
+    },
+    {
+        "image":"/images/coffee7.jpg",
+        "header": "Dark Black Coffee",
+        "subtext": "Standard black coffee seeds",
+        "price": "₹ 50"
+    },
+    {
+        "image":"/images/coffee8.jpg",
+        "header": "Dark Brown Coffee",
+        "subtext": "Standard black coffee seeds",
+        "price": "₹ 40"
+    },
+    {
+        "image":"/images/coffee9.jpg",
+        "header": "Nestle Coffee",
+        "subtext": "Standard black coffee seeds",
+        "price": "₹ 90"
+    },
+    {
+        "image":"/images/coffee10.jpg",
+        "header": "Royal Coffee",
+        "subtext": "Standard black coffee seeds",
+        "price": "₹ 60"
+    }
+],
+"pastries": [
+    {
+        "image":"/images/pst1.jpg",
+        "header": "White Creamed Pastrie",
+        "subtext": "Full creamy made of Amul Milk",
+        "price": "₹ 150"
+    },
+    {
+        "image":"/images/pst2.jpg",
+        "header": "Straw Berry Pastrie",
+        "subtext": "Special pastrie made of fresh strawberries.",
+        "price": "₹ 120"
+    },
+    {
+        "image":"/images/pst3.jpg",
+        "header": "Ranbow Pastrie",
+        "subtext": "Satrangi pastrie inspired from rainbow.",
+        "price": "₹ 130"
+    },
+    {
+        "image":"/images/pst4.jpg",
+        "header": "Brown Creamed Pastrie",
+        "subtext": "Full creamy made of Amul Milk",
+        "price": "₹ 90"
+    },
+    {
+        "image":"/images/pst5.jpg",
+        "header": "Milk Pastrie",
+        "subtext": "Full creamy made of Amul Milk",
+        "price": "₹ 130"
+    },
+    {
+        "image":"/images/pst6.jpg",
+        "header": "Combo Pastrie",
+        "subtext": "Full creamy made of Amul Milk",
+        "price": "₹ 160"
+    },
+    {
+        "image":"/images/pst7.jpg",
+        "header": "Red Dot Pastrie",
+        "subtext": "Full creamy made of Amul Milk",
+        "price": "₹ 110"
+    },
+    {
+        "image":"/images/pst8.jpg",
+        "header": "Choclate Brown Pastrie",
+        "subtext": "Full creamy made of Amul Milk",
+        "price": "₹ 100"
+    },
+    {
+        "image":"/images/pst9.jpg",
+        "header": "Coloured Pastrie",
+        "subtext": "Full creamy made of Amul Milk",
+        "price": "₹ 180"
+    },
+    {
+        "image":"/images/pst10.jpg",
+        "header": "Blue Royal Pastrie",
+        "subtext": "Full creamy made of Amul Milk",
+        "price": "₹ 200"
+    }
+],
+"tea": [
+    {
+        "image":"/images/tea1.jpg",
+        "header": "Khullad Tea",
+        "subtext": "Tasty tea in Khullad of village.",
+        "price": "₹ 30"
+    },
+    {
+        "image":"/images/tea2.jpg",
+        "header": "Lemon Tea",
+        "subtext": "Nimbu Tea specially for girls to loose weight",
+        "price": "₹ 60"
+    },
+    {
+        "image":"/images/tea3.jpg",
+        "header": "Green Tea",
+        "subtext": "Shradha Kapoor favourite green tea.",
+        "price": "₹ 80"
+    },
+    {
+        "image":"/images/tea4.jpg",
+        "header": "Standard Tea",
+        "subtext": "Tasty tea in Khullad of village.",
+        "price": "₹ 40"
+    },
+    {
+        "image":"/images/tea5.jpg",
+        "header": "Tea With Biscuit",
+        "subtext": "Tasty tea in Khullad of village.",
+        "price": "₹ 50"
+    },
+    {
+        "image":"/images/tea6.jpg",
+        "header": "Royal Tea",
+        "subtext": "Tasty tea in Khullad of village.",
+        "price": "₹ 40"
+    },
+    {
+        "image":"/images/tea7.jpg",
+        "header": "Road Side Tea",
+        "subtext": "Tasty tea in Khullad of village.",
+        "price": "₹ 90"
+    },
+    {
+        "image":"/images/tea8.jpg",
+        "header": "Red Lemon Tea",
+        "subtext": "Tasty tea in Khullad of village.",
+        "price": "₹ 100"
+    },
+    {
+        "image":"/images/tea9.jpg",
+        "header": "Normal Dip Tea",
+        "subtext": "Tasty tea in Khullad of village.",
+        "price": "₹ 60"
+    },
+    {
+        "image":"/images/tea10.jpg",
+        "header": "Blue Dip Tea",
+        "subtext": "Tasty tea in Khullad of village.",
+        "price": "₹ 70"
+    }
+    ]
+}

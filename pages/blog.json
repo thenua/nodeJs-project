@@ -1,0 +1,29 @@
+{
+"card": [
+    {
+        "image" : "/images/image_1.jpg",
+        "content" : "Even the all-powerful Pointing has no control about the blind texts"
+    },
+    {
+        "image" : "/images/image_2.jpg",
+        "content" : "We got best coffee for you"
+    },
+    {
+        "image" : "/images/image_3.jpg",
+        "content" : "Various benefits of drinking coffee"
+    },
+    {
+        "image" : "/images/image_4.jpg",
+        "content" : "How a cup of tea boost your energy"
+    },
+    {
+        "image" : "/images/image_5.jpg",
+        "content" : "Eating pastries with a cup of coffee or a tea is very good"
+    },
+    {
+        "image" : "/images/image_6.png",
+        "content" : "How about to eat a pastrie by taking a sip of coffee with it"
+    }
+]
+
+}

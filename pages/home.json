@@ -1,0 +1,101 @@
+{
+    "slide1":{
+        "header": "Drink Healthy <br> and <br> Natural Coffee",
+        "subtext": "Welcome to our coffee shop. We hope you enjoy our brand of coffee that we choose for you from all over the world. We wish to make you our regular and happy customerin the near future, so don't forget to try our service once."
+    },
+    "slide2":{
+        "header": "Only The Best Coffee<br> For You",
+        "subtext": "At LPU's House of Coffee, we only brew the freshest coffee globally. We also serve pastries such as cupcakes and brownies. Hope you like our choice and visit again."
+    },
+    "about":{
+        "header":"Welcome to LPU's Coffee House.",
+        "subtext":"We are consistently researching, testing and implementing best practices throughout our business to raise the bar. Making refractometers essential for our cafe brewing. holding advanced sensory learnings for junior roasters, and experimenting with processing at the farm level are just some of the ways that our highly skilled team is constantly evolving the way Indian coffee is treated, experienced or communicated about.",
+        "images": [
+            {
+                "image":"/images/coffee.jpg","caption": "Mathatha's Special Black Coffee"
+            },
+            {
+                "image":"/images/cupcake.jpg","caption": "Delicious Choclaty Pastries"
+            },
+            {
+                "image":"/images/tea.jpg","caption": "Fresh Green Tea Of Darjeeling"
+            }
+        ]
+    },
+    "coffee": [
+        {
+            "image":"/images/coffee1.jpg",
+            "header": "Our Premium Black Coffee",
+            "subtext": "Standard black coffee seeds",
+            "price": "₹ 60"
+        },
+        {
+            "image":"/images/coffee2.jpg",
+            "header": "Special Rajasthani Coffee",
+            "subtext": "Flavour of traditional coffee of royal Rajasthan.",
+            "price": "₹ 90"
+        },
+        {
+            "image":"/images/coffee3.jpg",
+            "header": "Chilled Coffee Smoothy",
+            "subtext": "Choclaty flavour filled with cream.",
+            "price": "₹ 70"
+        }
+    ],
+    "pastries": [
+        {
+            "image":"/images/pst1.jpg",
+            "header": "White Creamed Pastrie",
+            "subtext": "Full creamy made of Amul Milk",
+            "price": "₹ 150"
+        },
+        {
+            "image":"/images/pst2.jpg",
+            "header": "Straw Berry Pastrie",
+            "subtext": "Special pastrie made of fresh strawberries.",
+            "price": "₹ 120"
+        },
+        {
+            "image":"/images/pst3.jpg",
+            "header": "Ranbow Pastrie",
+            "subtext": "Satrangi pastrie inspired from rainbow.",
+            "price": "₹ 130"
+        }
+    ],
+    "tea": [
+        {
+            "image":"/images/tea1.jpg",
+            "header": "Khullad Tea",
+            "subtext": "Tasty tea in Khullad of village.",
+            "price": "₹ 30"
+        },
+        {
+            "image":"/images/tea2.jpg",
+            "header": "Lemon Tea",
+            "subtext": "Nimbu Tea specially for girls to loose weight",
+            "price": "₹ 60"
+        },
+        {
+            "image":"/images/tea3.jpg",
+            "header": "Green Tea",
+            "subtext": "Shradha Kapoor favourite green tea.",
+            "price": "₹ 80"
+        }
+    ],
+    "customer": [
+        {
+            "image":"/images/person_1.jpg",
+            "text1": "Devesh Chaudhary",
+            "text2": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+            "text3": "Owner"
+        },
+        {
+            "image":"/images/person_2.jpg",
+            "text1": "Mohd. Sharif Teli",
+            "text2": "Mountains can fly, river can dry, you can forgot me but how can I.",
+            "text3": "Customer"
+        }
+
+    ]
+
+}

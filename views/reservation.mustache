@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   {{>head}}
+  </head>
+  <body>
+    
+	  {{>nav}}
+    
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_4.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-2 bread">Make Reservation</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="/">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Reservation <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+		<section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container">
+				<div class="row d-flex">
+          <div class="col-md-5 ftco-animate img img-2" style="background-image: url(/images/bg_6.jpg);"></div>
+          <div class="col-md-7 ftco-animate makereservation p-4 p-md-5">
+          	<div class="heading-section ftco-animate mb-5">
+	          	<span class="subheading">Book a Table</span>
+	            <h2 class="mb-4">Make Reservation</h2>
+	          </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">Name</label>
+                    <input id="txtName" type="text" class="form-control" placeholder="Your Name" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">Email</label>
+                    <input id="txtEmail" type="text" class="form-control" placeholder="Your Email" required>
+                  </div>
+                </div>
+				<div class="col-md-12">
+					 <div class="form-group">
+                    <label for="">Order</label>
+                    <textarea name="order" id="msg" type="text" rows="8" style="background-color:#fffffa !important" class="form-control" placeholder="Describe your order here..." required></textarea>
+                  </div
+				</div>
+                <div class="col-md-12 mt-3">
+                  <div class="form-group">
+                    <input type="button" id="bt" value="Make a Reservation" class="btn btn-primary py-3 px-5" onclick="saveFile()"/>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+			</div>
+		</section>
+		<script>
+    let saveFile = () => {
+
+    	const name = document.getElementById('txtName');
+        const email = document.getElementById('txtEmail');
+        const msg = document.getElementById('msg');
+        
+        let data = 
+            '\r Customer name: ' + name.value + ' \r\n ' + 
+            'Email: ' + email.value + ' \r\n ' +  
+            'Message: ' + msg.value;
+
+        const textToBLOB = new Blob([data], { type: 'text/plain' });
+        const sFileName = 'ReservationDetail.txt';	 
+
+        let newLink = document.createElement("a");
+        newLink.download = sFileName;
+
+        if (window.webkitURL != null) {
+            newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+        }
+        else {
+            newLink.href = window.URL.createObjectURL(textToBLOB);
+            newLink.style.display = "none";
+            document.body.appendChild(newLink);
+        }
+
+        newLink.click(); 
+    }
+</script>
+
+{{>footer}}
+
+{{>scripts}}
+    
+  </body>
+</html>
